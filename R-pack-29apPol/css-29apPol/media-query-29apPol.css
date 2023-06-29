@@ -1,0 +1,183 @@
+
+@media (max-width: 1199px) {
+    .nav-bar {
+        gap: 10px;
+    }
+
+    .nav-bar a {
+        font-size: 16px;
+    }
+
+    .m-v-txt {
+        width: 50%;
+    }
+
+    .feature-block {
+        flex-direction: column;
+    }
+
+    .feature-card {
+        align-items: center;
+    }
+
+    .stat-section {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .double-block {
+        flex-direction: column;
+    }
+
+    .services-list {
+        width: 100%;
+    }
+
+    .media-block {
+        width: 100%;
+    }
+
+    .blog-block {
+        flex-direction: column;
+    }
+
+    .blog-wrap {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-top-bar {
+        gap: 10px;
+    }
+
+    .header-top-bar p {
+        font-size: 12px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .main-view-op {
+        display: flex;
+    }
+
+    .m-v-vector {
+        width: 40%; 
+        top: -320px;
+    }
+
+    .border-first {
+        position: absolute;
+    }
+
+    .how-work-content-block {
+        flex-direction: column;
+    }
+
+    .h-work-content-img {
+        width: 100%;
+    }
+
+    .content-text {
+        width: 100%;
+    }
+
+    .feedback-block {
+        gap: 10px;
+    }
+
+    .m-v-btn {
+        font-size: 18;
+    }
+
+   
+}
+
+@media(max-width: 767px)  {
+    .header-top-bar {
+        flex-direction: column; 
+        align-items:center ;
+    }
+
+    .m-v-vector {
+        display: none;
+    }
+
+    .main-view {
+        height: 450px;
+    }
+
+    .blog-wrap {
+        flex-direction: column; 
+    }
+
+    .blog-card {
+        width: 100%;
+    }
+
+    .team-block {
+        flex-direction: column;
+    }
+
+    .team-item {
+        width: 100%;
+    }
+
+    .feedback-block {
+        flex-direction: column;
+    }
+
+    .form-block {
+        width: 100%;
+    }
+
+    .contact-block {
+        width: 100%;
+    }
+
+    .cont-wrap {
+        flex-direction: column;
+    }
+
+    .cont-block {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .footer-col {
+        align-items: center;
+    }
+
+    .comment-avatar {
+        overflow: inherit; 
+        border-radius: 0;
+    }
+}
+
+@media(max-width: 600px) {
+    .nav-bar {
+        justify-content: center; 
+        flex-wrap: wrap;
+    }
+
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .s-card  {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+}
+
